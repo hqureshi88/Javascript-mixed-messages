@@ -2,10 +2,10 @@
 
 // below random function to generate index number to messages variable
 
-let random = (numLength) =>  Math.floor((Math.random()*numLength));
+const random = (numLength) =>  Math.floor((Math.random()*numLength));
 
 //messageGenerator to start of the program
-let messageGenerator = () => {
+const messageGenerator = () => {
     
     //Array of objects containing key/values
     const messages = [
