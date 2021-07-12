@@ -1,13 +1,11 @@
 //Joke Message Generator
 
 // below random function to generate index number to messages variable
-function random(numLength) {
-let randNum = Math.floor((Math.random()*numLength));
-return randNum; 
-}
+
+let random = (numLength) =>  Math.floor((Math.random()*numLength));
 
 //messageGenerator to start of the program
-function messageGenerator() {
+let messageGenerator = () => {
     
     //Array of objects containing key/values
     const messages = [
