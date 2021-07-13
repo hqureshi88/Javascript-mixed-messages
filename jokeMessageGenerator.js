@@ -1,9 +1,5 @@
 //Joke Message Generator
 
-// below random function to generate index number to messages variable
-
-const random = (numLength) =>  Math.floor((Math.random()*numLength));
-
 //messageGenerator to start of the program
 const messageGenerator = () => {
     
@@ -15,8 +11,8 @@ const messageGenerator = () => {
         {Annie: 'Annie thing you can do, I can do too!'}
     ]
 
-    //call for random function for index number
-    let randomIndex = random(messages.length);
+    // below random function to generate index number to messages variable
+    let randomIndex = Math.floor((Math.random()*messages.length));
 
     let messageObject = messages[randomIndex];
     
